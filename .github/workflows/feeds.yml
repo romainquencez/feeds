@@ -1,0 +1,19 @@
+name: Schedule
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+jobs:
+  playground:
+    runs-on: ubuntu-latest
+    name: Test
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Run Action
+        uses: llun/feeds@4.6.0
