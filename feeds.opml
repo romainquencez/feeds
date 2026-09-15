@@ -1,8 +1,11 @@
 <opml version="2.0">
+  <head>
+    <title>Feeds</title>
+  </head>
   <body>
   	<outline text="Actualité FR" title="Actualité FR">
-  		<outline xmlUrl="https://www.lemonde.fr/rss/une.xml" />
-  		<outline xmlUrl="https://www.lepoint.fr/24h-infos/rss.xml" />
+  		<outline type="rss" text="Le Monde" title="Le Monde" xmlUrl="https://www.lemonde.fr/rss/une.xml" />
+  		<outline type="rss" text="Le Point" title="Le Point" xmlUrl="https://www.lepoint.fr/24h-infos/rss.xml" />
   	</outline>
   </body>
 </opml>
