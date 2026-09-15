@@ -1,0 +1,8 @@
+<opml version="2.0">
+  <body>
+  	<outline text="Actualité FR" title="Actualité FR">
+  		<outline xmlUrl="https://www.lemonde.fr/rss/une.xml" />
+  		<outline xmlUrl="https://www.lepoint.fr/24h-infos/rss.xml" />
+  	</outline>
+  </body>
+</opml>
