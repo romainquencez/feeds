@@ -17,3 +17,5 @@ jobs:
     steps:
       - name: Run Action
         uses: llun/feeds@4.6.3
+        with:
+          storageType: files
