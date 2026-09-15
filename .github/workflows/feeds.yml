@@ -2,18 +2,18 @@ name: Schedule
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
   issues:
     types: [opened]
 
 jobs:
-  playground:
+  feeds:
     runs-on: ubuntu-latest
-    name: Test
+    name: Build static feeds site
     permissions:
       contents: write
       issues: write
     steps:
       - name: Run Action
-        uses: llun/feeds@4.6.0
+        uses: llun/feeds@4.6.3
