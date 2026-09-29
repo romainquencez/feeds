@@ -1,0 +1,15 @@
+<opml version="2.0">
+  <head>
+    <title>Feeds</title>
+  </head>
+  <body>
+  	<outline text="Actualité FR" title="Actualité FR">
+  		<outline type="rss" text="Le Monde" title="Le Monde" xmlUrl="https://www.lemonde.fr/rss/une.xml" />
+  		<outline type="rss" text="Le Figaro" title="Le Figaro" xmlUrl="https://www.lefigaro.fr/rss/figaro_actualites.xml" />
+  	</outline>
+    <outline text="Tech FR" title="Tech FR">
+      <outline type="rss" text="Korben" title="Korben" xmlUrl="https://korben.info/feed" />
+      <outline type="rss" text="Frandroid" title="Frandroid" xmlUrl="frandroid.com/feed" />
+    </outline>
+  </body>
+</opml>
